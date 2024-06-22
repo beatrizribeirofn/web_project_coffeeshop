@@ -39,6 +39,7 @@ h2 {
 .serif {
     font-family: 'Noto Serif', 'Times New Roman', serif;
     font-weight: 400; 
+    font-style: italic;
 }
 
 footer {
@@ -46,5 +47,3 @@ footer {
     text-align: center;
     padding: 10px 20px;
 }
-
-
