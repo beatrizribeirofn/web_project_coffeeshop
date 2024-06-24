@@ -1,5 +1,6 @@
 
-   .page {
+  
+.page {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -219,4 +220,3 @@ iframe {
 .bottom-caption {
     margin-top: 215px;
 } 
-
