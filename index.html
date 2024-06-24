@@ -8,38 +8,66 @@
     <meta name="author" content="Beatriz">
     <meta name="keywords" content="café">
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
- 
     
     
- 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="pages/index.css">
 </head>
 <body>
     <div class="page">
-        <header class="header">
-            <h1>Bem-vindo ao Coffee Shop</h1>
-        </header>
-        <main class="content">
-            <section class="recipes">
-                <h2>Receitas</h2>
-                <p class="serif">Aqui estão algumas receitas de café.</p>
-            </section>
-            <section class="reservations">
-                <h2>Reservas</h2>
-                <p class="serif">Faça sua reserva.</p>
-            </section>
-        </main>
-        <footer class="footer">
-            <p>&copy; 2024 Coffee Shop. Todos os direitos reservados.</p>
-        </footer>
-    </div>
+        
+     <header class="header" style="background-image: url('images/background_header.svg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+                <nav class="nav">
+                  <img
+                    src="./images/logo_coffeeshop_dark.svg"
+                    alt="Logotipo Café"
+                    class="nav__logo"
+                  />
+        
+         <nav class="nav__links">
+       
+        <a class="nav__link" href="#receitas">Receitas</a>
+        
+         
+         <a class="nav__link" href="#reservas">Reservar uma mesa</a>
+        
+       
+                      <a class="nav__link" href="#contatos">Contatos</a>
+                    </nav>
+
+                    <img class="header__image"
+        src="images/inside_coffee_shop.png"
+        alt="Ilustração 'Dentro do café" />
+                
+        
+                <div class="header__content">
+                  
+                    <h1 class="header__title"> <span class="span-accent">Café especial </span> <br> <span class="span-title"> na biblioteca Triple Peaks</span></span></h1>
+                    <p class="header__description">
+                      Esta é nossa zona de estudo! Temos aquele cafezinho para energizar você e vibrações aconchegantes para soltar a criatividade.
+                    </p>
+                    </div>
+                  
+                  
+        
+        
+        <footer class="header__footer">
+        <p class="header__footer-horarios"> Horários <br> Segunda a sexta (10:00 – 19:00) <br> 
+            Sábado a domingo (11:00 - 18:00) </p>
+        
+        
+        
+           <p class="header__address">200 Success Avenue, a cidade de Triple Peaks</p>
+              </footer>
+        
+        
+    </header>
+        
+    
 </body>
 </html>
