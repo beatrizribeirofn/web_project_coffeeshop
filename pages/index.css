@@ -1,5 +1,4 @@
 
-  
 .page {
     display: flex;
     flex-direction: column;
@@ -10,8 +9,7 @@
     line-height: 20px;
     font-family: 'Inter', Arial, sans-serif;
     min-width: 1100px;
-    max-width: 1600px; 
-
+    max-width: 1600px;
 }
 
 .header {
@@ -28,8 +26,8 @@
 .nav__logo {
     margin-top: 30px;
     margin-left: 30px;
-    width: 105px; 
-    height: 39px; 
+    width: 105px;
+    height: 39px;
 }
 
 .nav__links {
@@ -108,26 +106,18 @@
     font-size: 16px;
     line-height: 20px;
     color: #838383;
-    
-   
-    
-    
 }
 
 .header__footer-horarios {
     left: 80px;
     bottom: 40px;
-    position:absolute;
-
-
+    position: absolute;
 }
-
 
 .header__address {
     right: 80px;
     bottom: 40px;
-    position:absolute;
-    
+    position: absolute;
 }
 
 .serif {
@@ -138,46 +128,41 @@
     text-align: center;
     padding: 20px;
 }
+
 .recipes {
-        background-color: #0a2750;
-        background-image: url('images/background_recipes.svg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        color: white;
-        padding: 20px;
-        position: relative;
-        min-height: 100vh; 
-    
+    background-color: #0a2750;
+    background-image: url('images/background_recipes.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    position: relative;
+    min-height: 100vh;
 }
+
 .recipes__title h1 {
     margin-top: 100px;
     margin-left: 80px;
     max-width: 580px;
     font-family: "Inter";
-
-font-style: normal;
-
-font-weight: 500;
-
-font-size: 44px;
-
-line-height: 52px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
 }
+
 .recipes__subtitle h2 {
     margin-top: 24px;
     margin-left: 80px;
     max-width: 438px;
     font-family: "Noto Serif";
-
-font-style: normal;
-
-font-weight: normal;
-
-font-size: 20px;
-
-line-height: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
 }
+
 .recipes__videos {
     display: flex;
     justify-content: center;
@@ -186,46 +171,40 @@ line-height: 30px;
     gap: 40px;
     margin-bottom: 215px;
     font-family: "Inter";
-
-font-style: normal;
-
-font-weight: 500;
-
-font-size: 20px;
-
-line-height: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
 }
+
 iframe {
     border: none;
 }
+
 .recipes__video-item {
     text-align: center;
 }
+
 .recipes__video-item iframe {
     border: none;
     width: 480px;
     height: 273px;
 }
+
 .recipes__video-caption {
     display: flex;
     justify-content: space-between;
     font-size: 1.2em;
     margin-top: 10px;
-    width: 480px; 
+    width: 480px;
 }
-.recipes__video-caption span{
-        margin-left: auto;
-    }
+
+.recipes__video-caption span {
+    margin-left: auto;
+}
 
 .bottom-caption {
     margin-top: 215px;
-} 
-/* Estilos gerais */
-body {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 /* Seção de reserva */
