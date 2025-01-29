@@ -224,7 +224,11 @@ iframe {
     font-size: 44px;
     line-height: 52px;
     color: #000000;
-    margin-bottom: 40px;
+    margin-bottom: 40px; /* Ajuste conforme o roteiro */
+    margin-top: 0; /* Ajuste conforme o roteiro */
+    margin-left: auto; /* Ajuste conforme o roteiro */
+    margin-right: auto; /* Ajuste conforme o roteiro */
+    text-align: center; /* Centralizar o título, se necessário */
 }
 
 /* Formulário */
