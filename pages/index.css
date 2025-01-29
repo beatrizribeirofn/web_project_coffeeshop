@@ -220,3 +220,101 @@ iframe {
 .bottom-caption {
     margin-top: 215px;
 } 
+/* Estilos gerais */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Seção de reserva */
+.reservation {
+    background-color: #D9E7FF;
+    background-image: url('background_reservation.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.reservation__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+/* Formulário */
+.form {
+    max-width: 365px;
+    margin: 0 auto;
+}
+
+.form__fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form__label {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.form__input {
+    width: 100%;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    border: 1px solid #838383;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.form__input::placeholder {
+    color: #838383;
+}
+
+.form__label--checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.form__checkbox {
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.form__button {
+    width: 100%;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #2F80ED;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    opacity: 0.7;
+}
